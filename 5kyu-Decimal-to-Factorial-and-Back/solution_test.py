@@ -13,6 +13,7 @@ def tests():
     def basics1():
         testing1(463, "341010") 
         testing1(2982, "4041000") 
+        testing1(371993326789901217467999448150835199999999, "ZYXWVUTSRQPONMLKJIHGFEDCBA9876543210") 
         
     def testing2(n, expect):
         # try:
