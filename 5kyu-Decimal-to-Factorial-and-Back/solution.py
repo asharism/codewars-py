@@ -15,6 +15,18 @@ def dec_2_fact_string(decimal):
     # print(output)
     return output
 
+def factorial(n):
+    if n == 0:
+        return 1
+
+    return n * factorial(n-1)
+
 def fact_string_2_dec(string):
-  #your code here
-  pass
+    numbers = list(map(int, string[::-1]))
+    # print(numbers)
+    result = 0
+    for i in range(0, len(numbers)):
+        result += numbers[i] * factorial(i)
+
+    # print(result)
+    return result
