@@ -2,7 +2,7 @@
 
 The drawing below gives an idea of how to cut a given "true" rectangle into squares ("true" rectangle meaning that the two dimensions are different).
 
-alternative text
+![](blob/2023-11-19-21-11-12.png)
 
 Can you translate this drawing into an algorithm?
 
